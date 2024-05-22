@@ -101,3 +101,12 @@ Featured Tea Section
     text-align: center;
     margin-top: 10px;
 }
+
+/*
+Locations section
+*/
+
+#location-content{
+    height: 500px;
+    width: 1200px;
+}
