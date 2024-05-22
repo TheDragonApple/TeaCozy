@@ -44,6 +44,10 @@ h5{
     padding: 0px 10px;
 }
 
+.header li:hover{
+    cursor: pointer;
+}
+
 #mission-wrapper{
     display: flex;
     justify-content: center;
