@@ -6,6 +6,16 @@
     opacity: 0.9;
 }
 
+h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
 
 .header{
     display: flex;
@@ -26,5 +36,30 @@
     padding: 0px 10px;
 }
 
+#mission-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.mission{
+    background-image: url(../assets/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.mission-text-wrapper{
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+}
+
+.mission-text-wrapper h2, h4{
+    padding: 0;
+    margin: 10px;
+}
 
